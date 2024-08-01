@@ -1,0 +1,53 @@
+.navbar{
+    background-color: #10131e;
+    color: white;
+    font-size: 1.2rem;
+    padding: 20px 50px;
+}
+.navTop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search{
+    display: flex;
+    align-items: center ;
+    background-color: gray;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.searchInput{
+    font-family: Lo, sans-serif;
+    border: none;
+    background-color: transparent;
+}
+.searchInput::placeholder{
+    color:lightgray;
+}
+.navSport{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.navItem img{
+    width: 120px;
+    height: 120px;
+}
+.menuItem{
+    text-decoration: none;
+    color: white;
+    margin-right: 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 25px;
+}
+.menuItem p {
+    display: none;
+    font-size: 10px;
+}
+
+.menuItem:hover p {
+    display: block;
+}
