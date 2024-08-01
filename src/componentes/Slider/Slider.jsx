@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react'
-import futbol from '../img/Futbol.png'
-import Basket from '../img/BasketBall.png'
-import Hockey from '../img/Hockey.png'
-import Rugby from '../img/Rugby.png'
-import MotorSpT from '../img/MotorSport.png'
-import Leviatan from '../img/Leviatan.png'
+import futbol from '../../assets/img/Futbol.png'
+import Basket from '../../assets/img/BasketBall.png'
+import Hockey from '../../assets/img/Hockey.png'
+import Rugby from '../../assets/img/Rugby.png'
+import MotorSpT from '../../assets/img/MotorSport.png'
+import Leviatan from '../../assets/img/Leviatan.png'
 import './Slider.css'
 
 

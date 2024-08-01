@@ -2,7 +2,7 @@ import React from 'react'
 import './NavBar.css'
 import CarWidget from '../CarWidget/CarWidget'
 import { CiSearch } from "react-icons/ci";
-import sefasLogo from '../img/sefas.png';
+import sefasLogo from '../../assets/img/sefas.png';
 import { Link } from 'react-router-dom';
 
 const NavBar = () => {
