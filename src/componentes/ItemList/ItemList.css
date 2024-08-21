@@ -1,7 +1,5 @@
 .Lista{
-   /*display: flex;*/
     flex-wrap: nowrap;
-   /* gap: 20px;*/
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;

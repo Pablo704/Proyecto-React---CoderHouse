@@ -36,7 +36,7 @@ const Slider = () => {
                     <img src={Leviatan} alt="E-Sport" className='sliderImg'/>
                     <div className='sliderBg'></div>
                     <h1 className='sliderTitle'>LEVIATÁN<br />VCT AMERICAS</h1>
-                    <h2 className="sliderPrice"> $45.0</h2>
+                    <h2 className="sliderPrice"> $45</h2>
                     
                 </div> 
                 <div className='sliderItem'>

@@ -8,6 +8,7 @@ import Cart from './componentes/Cart/Cart'
 import { CartProvider } from './context/cartContext'
 import Checkout from './componentes/Checkout/Checkout';
 import Feature from './componentes/Features/Feature';
+import './App.css'
 
 
 
@@ -45,7 +46,6 @@ const AppContent = () => {
 
       <Routes>
         <Route path='/' element={showProducts ? <ItemListContainer /> : <div />} />
-        {/* <Route path='/' element={<ItemListContainer />} /> */}
         <Route path='/categoria/:category' element={<ItemListContainer />} /> 
         <Route path='/detalle/:id' element={<ItemDetailContainer />} />
         <Route path='/cart' element={<Cart />} />
