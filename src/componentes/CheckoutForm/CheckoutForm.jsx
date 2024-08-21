@@ -82,7 +82,7 @@ const CheckoutForm = ({ onConfirm }) => {
                 </label>
                 {error && <p className='error'>{error}</p>}
                 <div className='label'>
-                    <button type='submit' className='createOrder'>Crear Orden</button>
+                    <button type='submit' className='option'>Crear Orden</button>
                 </div>
             </form>
         </div>
