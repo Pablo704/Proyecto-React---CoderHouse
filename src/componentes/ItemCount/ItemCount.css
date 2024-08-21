@@ -9,3 +9,21 @@
     justify-content:space-around;
     align-items: center;
 }
+.button{
+    font-size: 25px;
+    float:right;
+    padding: 10px;
+    background-color:  #272A3B;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+.Number{
+    font-size: 25px;
+    float:right;
+    padding: 10px 20px;
+    background-color:  #272A3B;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}

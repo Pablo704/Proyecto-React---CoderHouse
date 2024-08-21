@@ -20,7 +20,7 @@ import { Link } from 'react-router-dom'
                           stock disponible: {stock}</p>
                   </section>
                   <footer className="ItemFooter">
-                    <Link to={`/detalle/${id}`} className="Option">Ver detalle</Link>
+                    <Link to={`/detalle/${id}`} className="option">Ver detalle</Link>
                   </footer>
               </article>
         )

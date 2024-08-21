@@ -1,0 +1,28 @@
+.cart-total{
+    display: block;
+    font-size: 25px;
+    padding: 10px 20px;
+    color: white;
+    background-color: #10131E;
+
+}
+.option{
+    font-size: 20px;
+    float:right;
+    padding: 10px 20px;
+    background-color:  #292C3E;
+    border: 1px solid white;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+}
+.limpiar{
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color:  #292C3E;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+}

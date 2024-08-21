@@ -19,7 +19,7 @@ const NavBar = () => {
           </div>
         </div>
         <div className='navItem'>
-              <CarWidget />
+          <CarWidget />
           </div>
       </div>
           <div className='navSport'>

@@ -37,42 +37,42 @@ const Slider = () => {
                     <div className='sliderBg'></div>
                     <h1 className='sliderTitle'>LEVIATÁN<br />VCT AMERICAS</h1>
                     <h2 className="sliderPrice"> $45.0</h2>
-                    <button className='buyButton'>BUY NOW!</button>
+                    
                 </div> 
                 <div className='sliderItem'>
                     <img src={Basket} alt="Basket" className='sliderImg'/>
                     <div className='sliderBg'></div>
                     <h1 className='sliderTitle'>Los Angeles Lakers<br /> LeBron James #23</h1>
                     <h2 className="sliderPrice">$139,99</h2>
-                    <button className='buyButton'>BUY NOW!</button>
+                    
                 </div>
                 <div className='sliderItem'>
                     <img src={futbol} alt="Futbol" className='sliderImg'/>
                     <div className='sliderBg'></div>
                     <h1 className='sliderTitle'>SELECCION<br /> ARGENTINA 2024</h1>
                     <h2 className="sliderPrice">$45,95</h2>
-                    <button className='buyButton'>BUY NOW!</button>
+                    
                 </div>
                 <div className='sliderItem'>
                     <img src={Hockey} alt="Hockey" className='sliderImg'/>
                     <div className='sliderBg'></div>
                     <h1 className='sliderTitle'>LAS LEONAS<br /> Seleccion ARG</h1>
                     <h2 className="sliderPrice">$45,95</h2>
-                    <button className='buyButton'>BUY NOW!</button>
+                    
                 </div>  
                 <div className='sliderItem'>
                     <img src={Rugby} alt="Rugby" className='sliderImg'/>
                     <div className='sliderBg'></div>
                     <h1 className='sliderTitle'>LOS PUMAS <br />Seleccion ARG</h1>
                     <h2 className="sliderPrice">$45,95</h2>
-                    <button className='buyButton'>BUY NOW!</button>
+                    
                 </div> 
                 <div className='sliderItem'>
                     <img src={MotorSpT} alt="MotorSport" className='sliderImg'/>
                     <div className='sliderBg'></div>
                     <h1 className='sliderTitle'>Polo Replic<br />RedBull Racing</h1>
                     <h2 className="sliderPrice">€59,95</h2>
-                    <button className='buyButton'>BUY NOW!</button>
+                    
                 </div> 
             </div>
         </div>

@@ -1,0 +1,30 @@
+.CartItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #10131E;
+}
+.Header {
+    flex: 2;
+}
+
+.ItemHeader {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 0;
+}
+
+.Info {
+    margin: 5px 0;
+    font-size: 0.9em;
+}
+
+footer {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}

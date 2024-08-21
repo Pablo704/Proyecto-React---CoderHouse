@@ -1,26 +1,35 @@
 .car-item{
-    display: flex;
-    font-family: Arial, Helvetica, sans-serif;
+    height: 80vh;
     background-color: #10131E;
-    padding-bottom: 20px;
-    border-radius: 20px;
-}
-.Header{
-    text-align: center;
-}
-.car-item__image-container{
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    width: auto;
-}
+    position: relative;
+ }
 .car-item__image{
-    width: 60%;
-    height: 100%;
+    width: 40%;
+    height: 70vh;
+    margin-top: 10px ;
 }
 .car-item__details{
-    display: block;
-    justify-content: center;
-    align-items: center;
-    font-size: 20px;
+    position: absolute;
+    top: -8%;
+    right: 10%;
+    width: 40%;
+
+}
+.car-item__title{
+    font-size: 75px;
+    font-weight: 900;
+}
+.car-item__detail{
+    font-style: 24px;
+    color: gray;
+}
+.terminarCompra{
+    font-size: 25px;
+    float:right;
+    padding: 10px 20px;
+    background-color:  #272A3B;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
 }

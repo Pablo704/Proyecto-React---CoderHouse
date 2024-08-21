@@ -1,0 +1,49 @@
+.features{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #10131E;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.feature{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.featureIcon{
+    width: 50px;
+    height: 50px;
+}
+.featureTitle{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px;
+}
+.featureDesc{
+    color: grey;
+    width: 50%;
+    height: 100px;
+}
+.productosBoton {
+    position: relative;
+}
+.mostrarProducos{
+    position: fixed;
+    top: 10px; 
+    right: 10px; 
+    margin: 10px; 
+    z-index: 1000; 
+    background-color: #319B5F; 
+    color: #fff; 
+    border: none; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+    border-radius: 5px;
+    
+}
+.mostrarProducos:hover {
+    background-color: #2C8756;
+  }
